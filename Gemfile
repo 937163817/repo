@@ -60,3 +60,10 @@ gem 'graphiql-rails', group: :development
 
 gem 'react_on_rails', '11.3.0'
 gem 'aasm'
+
+group :development, :test do
+  gem 'byebug', platform: :mri
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
+  gem 'faker'
+end
